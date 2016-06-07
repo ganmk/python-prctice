@@ -1,3 +1,3 @@
 # python-prctice
-我的Python集
+Python集
 有关python的coding
