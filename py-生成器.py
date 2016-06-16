@@ -11,3 +11,14 @@ l = []
 for j in g:
      l.append(j)
 print l#[2, 4, 6, 8, 10]
+
+def Get_Number():#1#4
+    yield 0#5#7
+    yield 1#8#10
+    yield 2#11#12
+
+a = Get_Number()#2
+print a.next()#3
+print a.next()#6
+print a.next()#9
+
